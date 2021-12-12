@@ -5,33 +5,16 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-white 1
-      h1 Materias primas para el alimento animal 
+        span.text-white 4
+      h1 Áreas de proceso de ración animal
     
-  
-
-    #t_1_1.titulo-segundo.color-acento-contenido
-      .h2 1.1 Métodos de acopio e inspección
     
-    #t_1_2.titulo-segundo.color-acento-contenido
-      .h2 1.2 Características de la perecibilidad
-
-    #t_1_3.titulo-segundo.color-acento-contenido
-      .h2 1.3 Técnicas de selección, adecuación, recepción y evaluación
-
-
-
-
-
-
-
 
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
-  components: {},
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),

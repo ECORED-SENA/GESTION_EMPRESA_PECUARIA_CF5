@@ -4,8 +4,8 @@ export default {
       'Generalidades en la preparación de raciones para especies animales.',
     descripcionCurso:
       'El presente componente de formación surge de la necesidad de aproximarse a la alimentación animal como un componente importante en la producción porque es la base fundamental para la expresión genética de los mismos. La preparación de raciones es un componente importante en la nutrición animal para llegar a alcanzar los diferentes requerimientos energéticos, proteicos, vitamínicos y minerales, logrando así un sistema productivo rentable, bajo los lineamientos de unas buenas prácticas de alimentación.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner.png'),
   },
   menuPrincipal: {
     menu: [
@@ -24,116 +24,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Materias primas para el alimento animal',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Métodos de acopio e inspección',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Características de la perecibilidad',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Técnicas de selección, adecuación, recepción y evaluación',
+            hash: 't_1_3',
           },
         ],
       },
@@ -141,90 +51,81 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Higienización de las materias primas para ración',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Ración animal',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Técnica y métodos de elaboración',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Tratamiento de ración',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Transformación materias primas',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Criterios e interpretación de fórmulas',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
+            titulo:
+              'Buenas prácticas de fabricación de alimentos de uso animal',
             hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Áreas de proceso de ración animal',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Equipos para la ración animal',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Seguridad y salud en el trabajo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Elementos de protección personal ',
+            hash: 't_6_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '6.2',
+            titulo: 'Técnicas de evaluación',
+            hash: 't_6_2',
           },
         ],
       },
@@ -271,139 +172,172 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Aguilar, J. (2012). Métodos de conservación de alimentos. Red Tercer Milenio.',
+    },
+    {
+      referencia:
+        'Cerdas, R. (2013).  Formulación de raciones para carne y leche. Desarrollo de un módulo práctico para técnicos y estudiantes de ganadería de Guanacaste, Costa Rica. InterSedes, 14(29), p. 128-153.',
+      link: 'https://www.redalyc.org/pdf/666/66629448009.pdf',
+    },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Sistemas de gestión de la seguridad y salud en el trabajo [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=5CF3HZdu6Bc',
+    },
+    {
+      referencia:
+        'EEA INTA Balcarce. (2002). Composición de alimentos para rumiantes. Sitio Argentino de Producción Animal.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.produccion-animal.com.ar/tablas_composicion_alimentos/01-alimentos_rumiantes.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'FAO. (2020). Codex Alimentarius. Principios generales de higiene de los alimentos. OMS.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.fao.org/fao-who-codexalimentarius/sh-proxy/es/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXC%2B1-1969%252FCXC_001s.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Fundación CESFAC. (2007). Guía para el desarrollo de normas de higienización de los piensos. Ministerio de Agricultura, Pesca y Alimentación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://cesfac.es/media/attachments/2019/08/08/guia-higienizacin.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'González, M. (2013). Recepción, organización y control de materias primas. Slideshare.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://es.slideshare.net/ManoloGonzalez4/recepcion-organizacion-y-control-de-materias-primas',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'ICA. (1998). Buenas Prácticas en la Fabricación de Alimentos en Colombia. Grupo de regulación y control de alimentos',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.ucv.ve/fileadmin/user_upload/facultad_agronomia/BPF_Alimentos_Balanceados.pdf',
+    },
+    {
+      referencia: 'ICA. (2021). Alimentos. Gov.co.',
+      link:
+        'https://www.ica.gov.co/areas/pecuaria/servicios/alimentos-para-animales.aspx',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Madigan, M., Martinko, J., y Parker, J. (2000). <em>Brock biology of microorganisms. Prentice Hall Internatio</em>',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo [Mintrabajo]. (2016). Sistema de gestión de seguridad y salud en el trabajo SG-SST.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.mintrabajo.gov.co/documents/20147/59614744/Programa+Sistema+de+Gestion+de+Seguridad+y+Salud+en+el+Trabajo.pdf/cb0222ac-ca46-d3ad-ab49-0099c0051b39?version=1.0',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social [Minsalud]. (2021). Gestión integral de elementos de protección personal (EPP).',
+      link:
+        'https://www.minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/GTHS02.pdf',
+    },
+    {
+      referencia:
+        'Muñoz, O. (2004). Comparación entre Extruido y Pelletizado en Alimentos de Camarones. VII Simposium Internacional de Nutrición Acuícola.',
+      link: 'http://eprints.uanl.mx/8392/1/22Osvaldo_Munoz.pdf',
+    },
+    {
+      referencia:
+        'Rodríguez, A., López, N., Quintero, H. y Canales, R. (2002). Compuestos Orgánicos e Inorgánicos. En A. Rodríguez, Ciencia, Tecnología y Ambiente (p. 37-45). Cengage Learning.',
+      link:
+        'https://link.gale.com/apps/doc/CX3003700023/GVRL?u=sena&sid=bookmark-GVRL&xid=6ea6e595',
+    },
+    {
+      referencia:
+        'Universidad Industrial de Santander [UIS]. (2008). Guía de almacenamiento seco, refrigerado y congelado.',
+      link:
+        'https://www.uis.edu.co/intranet/calidad/documentos/bienestar_estudiantil/guias/GBE.27.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Aditivo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Ingrediente adicionado a los productos, ya sea para aumentar su palatabilidad o su transformación, así como su componente nutricional.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Aguas duras y blandas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es principalmente dado por la cantidad de minerales o compuestos minerales que contiene el agua, si contiene muchos, se denomina agua dura, y si son pocos, se denomina agua blanda.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Almacén',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Lugar o espacio donde se organizan las materias primas, subproductos o productos.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Contaminación cruzada',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Proceso donde se altera un producto o materia prima, ya sea por bacterias, otra materia prima, medicamentos, etc. Se produce principalmente por el manipulador de alimentos.',
     },
     {
-      termino: 'Moda',
+      termino: 'Formula alimenticia',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es una secuencia de elementos llamados ingredientes, en los cuales se relacionan cantidades de los mismos.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Fuerza centrífuga',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es la fuerza ejercida en un cilindro o círculo del centro hacia afuera.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Lote',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Cantidad de producto o insumo que se fabrica en un solo ciclo (fecha de fabricación es la misma), la característica especial es ser homogéneo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Peletizar',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es un proceso mecánico donde se realiza una mezcla de ingredientes previamente molidos; son humedecidos y calentados con vapor, luego, son compactados en pequeños cilindros.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Registro',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Acción de registrar una actividad, acción, comportamiento, eventualidad, entre otros.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Suplemento alimenticio',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son adicionales a la alimentación, principalmente contienen gran cantidad de minerales, proteínas, vitaminas, aminoácidos, enzimas, entre otros.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Sustancia activa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Molécula que tiene un medicamento como ingrediente esencial.',
     },
     {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Vida útil',
+      significado: 'Duración estimada que tiene un producto o alimento.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'FAO. (2020). <em>Codex Alimentarius</em>. Principios generales de higiene de los alimentos. OMS.',
+      tipo: 'Texto Digital',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto: 'ICA. (2021). Alimentos. Gov.co. ',
+      tipo: 'Página web',
+      link:
+        'https://www.ica.gov.co/areas/pecuaria/servicios/alimentos-para-animales.aspx',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
+        'EEA INTA Balcarce. (2002). Composición de alimentos para rumiantes. Sitio Argentino de Producción Animal.',
+      tipo: 'Repositorio Abierto',
       descarga: '/downloads/prueba.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Cerdas, R. (2013).  Formulación de raciones para carne y leche. Desarrollo de un módulo práctico para técnicos y estudiantes de ganadería de Guanacaste, Costa Rica. InterSedes, 14(29), p. 128-153.',
+      tipo: 'Texto Digital',
+      descarga: '/downloads/prueba.pdf',
     },
   ],
   creditos: {

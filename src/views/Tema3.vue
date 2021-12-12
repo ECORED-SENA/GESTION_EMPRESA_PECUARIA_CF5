@@ -3,23 +3,66 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span.text-white 3
+      h1 Ración animal
+    
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
 
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+
+    
+    
+    
+    
+    separador
+    #t_3_1.titulo-segundo.color-acento-contenido
+      .h2 3.1 Técnica y métodos de elaboración
+    
+
+
+
+
+
+
+
+
+    separador
+    #t_3_2.titulo-segundo.color-acento-contenido
+      .h2 3.2 Tratamiento de ración
+    
+    
+    
+    
+    separador
+    #t_3_3.titulo-segundo.color-acento-contenido
+      .h2 3.3 Transformación materias primas
+    
+    
+    
+    
+    separador
+    #t_3_4.titulo-segundo.color-acento-contenido
+      .h2 3.4 Criterios e interpretación de fórmulas
+    
+    
+    
+    
+    separador
+    #t_3_5.titulo-segundo.color-acento-contenido
+      .h2 3.5 Buenas prácticas de fabricación de alimentos de uso animal
+
+
+
+
+
+
+
+
+    
 
 </template>
 

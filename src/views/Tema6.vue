@@ -5,19 +5,12 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-white 1
-      h1 Materias primas para el alimento animal 
+        span.text-white 6
+      h1 Seguridad y salud en el trabajo
     
-  
-
-    #t_1_1.titulo-segundo.color-acento-contenido
-      .h2 1.1 Métodos de acopio e inspección
+    #t_6_1.titulo-segundo.color-acento-contenido
+      .h2 6.1 Elementos de protección personal 
     
-    #t_1_2.titulo-segundo.color-acento-contenido
-      .h2 1.2 Características de la perecibilidad
-
-    #t_1_3.titulo-segundo.color-acento-contenido
-      .h2 1.3 Técnicas de selección, adecuación, recepción y evaluación
 
 
 
@@ -25,13 +18,18 @@
 
 
 
+
+
+
+    
+    #t_6_2.titulo-segundo.color-acento-contenido
+      .h2 6.2 Técnicas de evaluación
 
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
-  components: {},
+  name: 'Tema6',
   data: () => ({
     // variables de vue
   }),
