@@ -128,7 +128,114 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
 
+    .row.fondo1
+      .col-lg-12.px-md-5.py-5
+        .row.justify-content-center.mb-5
+          .col-lg-7.mb-4.mb-lg-0.onTop
+            p.mb-2 Dentro de las características de la higienización, los operarios o personas manipuladoras de las materias primas tienen una función tanto en la contaminación como en la preservación de la inocuidad de los productos. Los seres humanos se identifican como  principales vectores de microorganismos, enfermedades y contaminación de las materias primas o los alimentos, puesto que llevan consigo microorganismos en el cabello, la piel, la ropa, la cavidad intestinal, entre otras. En consecuencia, con la manipulación del producto, puede estar en riesgo la producción de este. Ante esto, es importante tener medidas correctas para evitar ser un vector de contaminación, con la implementación de prácticas de prevención y control que ayuden a asegurar un producto de calidad para la ración animal. Algunas prácticas recomendadas son: 
+            .neg--right.p-4.fondo-hoja(style="background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
+              ul.lista-ul
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 No comer en el lugar de trabajo. 
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Lavarse las manos cada que sea necesario, teniendo en cuenta la manipulación de productos, el ingreso a otras áreas, después de cada descanso, entre otras.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Utilizar los elementos de seguridad necesarios.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 No estornudar o toser sobre la materia prima.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 No fumar. 
+                    
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Limpieza de la indumentaria utilizada. 
+                    
+          .col-9.col-lg-5
+            figure
+              img(src='@/assets/curso/tema2/img5.png', alt='imagen ambiental', style="width: 500px").m-auto
+          
+        .row.justify-content-center
+          .col-lg-12
+            p.mb-0 Complementando lo anterior, existen técnicas y métodos de higienización de materias primas. Su propósito es proteger, preservar y conservar los productos y los elementos nutricionales que se le brinden al animal, con el fin de que estos puedan expresar todo su potencial genético. Para realizar la limpieza y desinfección, existen dos métodos de limpieza que se caracterizan así: 
 
+
+    .row.fondo-gradiente
+      .col-lg-12.px-md-5.py-5
+        .row.justify-content-evenly
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img6.svg')})`}")
+                .tarjeta-flip__contenido.p-4.p-xl-5.px-xl-4
+                  h4.text-center Manuales
+                  p.mb-0.text-center Los métodos manuales son todos los métodos que consisten en frotar, cepillar y rociar con agua a grandes presiones, donde se puede realizar un barrido húmedo, con escobas, cepillos, enjuagado, y tratamiento con espumas o geles.
+                    
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img7.svg')})`}")
+                .tarjeta-flip__contenido.p-4.p-xl-5.px-xl-3
+                  h4.text-center Mecánicos
+                  p.mb-0.text-center Los métodos mecánicos generalmente son aquellos que utilizan las fuerzas de remoción, ya sea del agua o el aire, para así extraer todo el material no deseado; dentro de estas, se encuentran el rociado de agua a presión, el uso de aspiradores, y el flujo de aire a presión.
+                    
+
+
+    p.mb-5.pt-3(style="border-top: 1px solid #78b62e") 
+      b-none Aparte de los métodos de higienización mencionados, cabe resaltar la importancia del uso de los diferentes productos de limpieza y desinfección. Existen múltiples grupos de limpieza, dependiendo de las características del compuesto activo y sus mecanismos de acción. Dentro de los más conocidos, se tienen los siguientes:
+          
+
+    .row.justify-content-center.mb-5
+      .col-lg-9
+        .cajon.color-acento-contenido.p-4.mb-5
+          .row.justify-content-center
+            .col-lg
+              h5 Jabones
+              p.mb-0 La gran mayoría de jabones utilizados para la limpieza, tanto de manos como de superficies, son elaborados a partir de componentes sódicos y grasas, dando la característica especial de ser biodegradables, pero causando alteraciones de dureza de agua.
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/img8.svg', alt='imagen ambiental', style="width: 125px").m-auto
+            
+            
+        .cajon.color-primario.p-4.mb-0
+          .row.justify-content-center
+            .col-lg
+              h5 Detergentes, biocidas
+              p.mb-0 Son el resultante de una mezcla de muchos componentes que tienen una o más sustancias activas. Su principal función es la remoción de las partículas de suciedad, y esto evita que se vuelvan a adherir a la superficie. También tienen componente antimicrobiano, el cual impide el crecimiento y desarrollo bacteriano, asegurando así una condición de limpieza e inocuidad. 
+                
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/img9.svg', alt='imagen ambiental', style="width: 125px").m-auto
+
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-secundario.p-4(style="background-color: #3c6d9d42; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-top-left-radius: 60px; border-bottom-right-radius: 60px")
+          .row.justify-content-center
+            .col-lg.mb-4.mb-lg-0
+              .bloque-texto-b.p-4
+                .bloque-texto-b__texto.mb-4
+                  i.fas.fa-quote-left(style="color: #78B62E; font-size: 28px;")
+                  p.mb-0 
+                    b Para obtener más información sobre los productos de limpieza más utilizados dentro de los grupos de jabones y detergentes, se sugiere leer el Anexo I: “Guía para el desarrollo de normas de higienización de los piensos” 
+                  i.fas.fa-quote-right(style="color: #78B62E; font-size: 28px;")
+                .bloque-texto-d__autor.d-flex.justify-content-start
+                  p.mb-0 (Fundación CESFAC, 2007), desde la página 97 hasta la 103.
+                    
+            .col-auto
+              figure.mb-2
+                img(src='@/assets/curso/tema1/img3.svg', alt='imagen ambiental', style="width: 158px").m-auto
+              .row.justify-content-center
+                .col-auto
+                  a.boton.color-acento-botones(href="https://cesfac.es/media/attachments/2019/08/08/guia-higienizacin.pdf" target="_blank")
+                    span(style="color: #12263f") Ver más
+                    i.fas.fa-link(style="color: #12263f")
 
 
 </template>

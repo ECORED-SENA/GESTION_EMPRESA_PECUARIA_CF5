@@ -73,10 +73,10 @@
 
     .row.justify-content-center.mb-5
       .col-lg-11
-        .tarjeta.color-secundario.p-4
+        .tarjeta.color-secundario.p-4(style="background-color: #3c6d9d42; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-top-left-radius: 60px; border-bottom-right-radius: 60px")
           .row.justify-content-center
             .col-lg.mb-4.mb-lg-0
-              .bloque-texto-b.color-secundario.p-4
+              .bloque-texto-b.p-4
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left(style="color: #78B62E; font-size: 28px;")
                   p.mb-0 
@@ -183,7 +183,7 @@
             .contenedor-texto
               p.mb-0 Son aquellos factores externos o internos de las materias primas que generan una alteración en su composición.  Los agentes influyentes en este cambio se clasifican en: 
               .contenedor-title
-                p.mb-0.text-white 
+                p.mb-0.text-center.text-white
                   b Agentes causales de la perecibilidad
             
         .row.justify-content-center.mb-0

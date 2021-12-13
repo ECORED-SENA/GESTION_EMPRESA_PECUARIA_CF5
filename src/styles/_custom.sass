@@ -41,6 +41,16 @@
     background-size: cover 
     margin-inline: -1.4rem
 
+.fondo3
+  background: url('../assets/curso/tema3/fondo3.png')
+  background-position: bottom
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
 .fondo-cajon
   background: url('../assets/curso/tema1/fondo-cajon.png')
   background-position: center
@@ -99,6 +109,30 @@
   left: 50%
   transform: translate(-50%, -50%)
 
+////alineado a la izquierda
+.contenedor-texto2
+  background-color: #ffff
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+  position: relative
+  padding: 5rem 2rem 1rem 2rem
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+  
+
+.contenedor-title2
+  background-color: #78B62E
+  border-bottom-left-radius: 20px
+  border-top-right-radius: 20px
+  padding: 1.5rem 
+  display: flex
+  justify-content: center
+  align-items: center
+  position: absolute
+  top: 0
+  left: -20px
+  transform: translate(0%, -50%)
+///end de alineado
+
 .tarjeta.color-acento-contenido
   background-color: #c2dda0
 
@@ -118,4 +152,23 @@
 .tarjeta-flip.color-acento-contenido .tarjeta-flip__img 
     background-color: #79b62e00
 
+.tarjeta-flip__img 
+  background-position: center
+  background-repeat: no-repeat
+  @media screen and ( max-width: 992px)
+    background-size: contain
 
+.cajon.color-primario 
+  background-color: #3c6d9d42
+
+.cajon.color-acento-contenido 
+  background-color: #ddedcb
+
+.img-infografica__card, .img-infografica-b__card 
+  width: 400px
+  @media screen and ( max-width: 992px)
+    width: 320px
+
+.tabs-a__tab 
+  background-color: #f6f6f6
+    
