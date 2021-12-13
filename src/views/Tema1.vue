@@ -161,7 +161,7 @@
         .row.justify-content-center(style="margin-bottom: 6rem")
           .col-lg-7.mb-4.mb-lg-0
             .p-4.mb-3(style="background-color: #3c6d9d3f")
-              .bloque-texto-b.color-secundario.p-4.px-0
+              .bloque-texto-b.p-4.px-0
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left(style="color: #78B62E; font-size: 28px;")
                   p.mb-0 
@@ -246,7 +246,7 @@
       .h2 1.3 Técnicas de selección, adecuación, recepción y evaluación
 
 
-    .row.justify-content-between.align-items-center.fondo-cajon
+    .row.justify-content-between.align-items-center.fondo-cajon.mb-5
       .col-lg-3
         figure
           img(src='@/assets/curso/tema1/img10.png', alt='imagen ambiental', style="width: 240px").m-auto
@@ -254,7 +254,48 @@
         p.mb-0 Las materias primas seleccionadas para la elaboración de alimento animal son una fuente que define la composición de un alimento; en consecuencia, su adecuación, recepción y evaluación son acciones constantes para determinar la calidad y bienestar animal.  A continuación, se describen algunas técnicas planeadas desde la inocuidad y calidad de los productos. Estas técnicas ofrecen unos alimentos sanos y seguros, tanto para los animales como para los consumidores finales. ¿Ha escuchado sobre las técnicas de selección, adecuación, recepción y evaluación? Para más información, que le ayudará a desarrollar conocimiento, revise este recurso educativo. 
 
 
-
+    .row.just-content-center
+      .col-lg-12
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .row.justify-content-center.align-items-center(titulo="Selección")
+            .col-md-7.mb-4.mb-md-0
+              p.mb-4 Esta técnica se centra en la selección de los ingredientes o materias primas que se usarán en la ración animal. Se hace necesario hacer un listado de estas materias, que se deben comprar a proveedores que garanticen un producto seguro porque cumple con las especificaciones estipuladas para cada materia prima.
+              p Los proveedores deben suministrar las especificaciones exactas de los productos, para así realizar una formulación mucho más precisa de las raciones. Tenga cuidado, cuando cambie de proveedor, de solicitar las especificaciones de las materias primas, ya que pueden tener una variación significativa con respecto a trazas de medicamentos o alguna alteración. 
+              p.mb-0 Finalmente, cuando usted haga una selección de los ingredientes o materias primas, tenga presente los componentes nutricionales, energéticos y proteicos. 
+                
+            .col-8.col-md-4
+              figure
+                img(src='@/assets/curso/tema1/img11.png', alt='imagen ambiental', style="width: 400px;").m-auto
+                
+          .row.justify-content-center.align-items-center(titulo="Adecuación")
+            .col-md-7.mb-4.mb-md-0
+              p La adecuación es un proceso que debe suceder antes de la recepción de las materias primas. Esta debe planearse con la intención de agilizar el proceso de recepción y descargue de las materias primas, para así evitar los factores de perecibilidad. Ello garantiza un producto óptimo. 
+              p.mb-4 Cuando usted necesita realizar la técnica de adecuación, seleccione un espacio adecuado para la descarga de las materias primas, que luego son direccionadas al lugar de almacenamiento. 
+              p.mb-0 Es importante realizar la revisión de las diferentes estructuras: contenedores, estibas, envases, entre otros, y aplicar los protocolos de limpieza de las áreas de almacenamiento.
+                
+            .col-8.col-md-4
+              figure
+                img(src='@/assets/curso/tema1/img12.png', alt='imagen ambiental', style="width: 400px;").m-auto
+                
+          .row.justify-content-center.align-items-center(titulo="Recepción")
+            .col-md-7.mb-4.mb-md-0
+              p.mb-4 Esta técnica tiene como propósito la revisión de los ingredientes o materias primas solicitadas. Estas deben coincidir con la lista de solicitud y envío del proveedor. Usted puede identificar el contenido de los empaques o cajas porque deben tener una rotulación sobre número, fecha, lote y todas las características que informen su caducidad y registro.
+              p.mb-4 Antes de realizar la descarga, realice una leve inspección de los productos, en relación con el embalaje, cantidad, color, olor, textura, densidad, humedad, peso y temperatura de los productos. Si existe alguna alteración, haga el respectivo reporte. 
+              p Cabe mencionar, en el momento de la recepción de materias primas o productos a granel, un muestreo de las materias. Tome de forma aleatoria un ¼ a ½ de materia. Haga una identificación y rotulación de esta actividad con estos aspectos: fecha de muestra, fecha de elaboración del producto, tipo de materia prima, fecha de caducidad. Con materias primas o ingredientes como aceites, grasas, entre otros, la muestra se debe realizar después de haber iniciado el descargue.
+              p.mb-0 Todas las muestras deben ser debidamente almacenadas, evitando la descomposición y destrozo por parte de roedores o insectos.
+                
+            .col-8.col-md-4
+              figure
+                img(src='@/assets/curso/tema1/img13.png', alt='imagen ambiental', style="width: 400px;").m-auto
+                
+          .row.justify-content-center.align-items-center(titulo="Evaluación")
+            .col-md-7.mb-4.mb-md-0
+              p.mb-0 La técnica de evaluación es un procedimiento que se realiza desde el proceso de selección, cuando se valora la calidad de la materia prima. Es importante, en el antes, durante y después de la recepción, velar por el cumplimiento de los requerimientos de los animales. Es un procedimiento que se realiza de manera constante y durante todas las fases.
+                
+            .col-8.col-md-4
+              figure
+                img(src='@/assets/curso/tema1/img14.png', alt='imagen ambiental', style="width: 400px;").m-auto
+                
 
 
 
