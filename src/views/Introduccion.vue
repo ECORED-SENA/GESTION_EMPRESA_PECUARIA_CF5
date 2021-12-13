@@ -9,7 +9,8 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-5 Apreciado aprendiz, bienvenido a esta experiencia de aprendizaje diseñada en torno a los ejes temáticos relacionados con las materias primas para el alimento animal. Se le invita a observar el siguiente recurso educativo para que identifique el contexto de donde surge el presente componente de formación.
+    .cajon-b.color-acento-contenido.p-3.mb-5
+      p.mb-0 Apreciado aprendiz, bienvenido a esta experiencia de aprendizaje diseñada en torno a los ejes temáticos relacionados con las materias primas para el alimento animal. Se le invita a observar el siguiente recurso educativo para que identifique el contexto de donde surge el presente componente de formación.
     
     figure
       .video
