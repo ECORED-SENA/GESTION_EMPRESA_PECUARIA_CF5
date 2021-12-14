@@ -206,13 +206,89 @@
 
 
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center(style="margin-bottom: 5rem")
           .col-lg-12
             .contenedor-texto2
-              p.mb-0 Es un método de formulación de raciones de elaboración manual, en el cual se utilizan las proteínas brutas de dos materias primas, donde es importante contar con una fuente energética y una fuente proteica. Se debe realizar un cuadro, donde se separan los alimentos, la proteína bruta del alimento, la concentración deseada, las partes y proporción de las fuentes alimenticias. Posterior a esto, se toma la proteína bruta del maíz, cuyo valor es 7.5%, y la proteína bruta de la soja tostada, que es de 36,8%; donde el maíz cumple el requerimiento energético y la soja tostada, el proteico. Seguidamente, se elige la concentración deseada, según el requerimiento del animal; en este caso, será de 18%. Teniendo estos valores, se procede a restar los valores de proteína bruta y concentración deseada; es importante restar primero el número mayor, ambos resultados se suman. Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo: 
               .contenedor-title2
                 p.mb-0.text-center.text-white
                   b Método de cuadrado de Pearson Simple 
+              p.mb-5 Es un método de formulación de raciones de elaboración manual, en el cual se utilizan las proteínas brutas de dos materias primas, donde es importante contar con una fuente energética y una fuente proteica. Se debe realizar un cuadro, donde se separan los alimentos, la proteína bruta del alimento, la concentración deseada, las partes y proporción de las fuentes alimenticias. Posterior a esto, se toma la proteína bruta del maíz, cuyo valor es 7.5%, y la proteína bruta de la soja tostada, que es de 36,8%; donde el maíz cumple el requerimiento energético y la soja tostada, el proteico. Seguidamente, se elige la concentración deseada, según el requerimiento del animal; en este caso, será de 18%. Teniendo estos valores, se procede a restar los valores de proteína bruta y concentración deseada; es importante restar primero el número mayor, ambos resultados se suman. Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo: 
+              .row.justify-content-center.mb-4
+                .col-lg-10
+                  figure
+                    img(src='@/assets/curso/tema3/img7.svg', alt='imagen ambiental', style="").m-auto
+              .row.justify-content-center.mb-4
+                .col-lg-10
+                  p.mb-0.text-center
+                      
+    .row.justify-content-center(style="margin-bottom: 5rem")
+          .col-lg-12
+            .contenedor-texto2
+              .contenedor-title2
+                p.mb-0.text-center.text-white
+                  b Cuadro de Pearson compuesto 
+              p.mb-5 El cuadrado de Pearson compuesto tiene los mismos componentes del cuadrado de Pearson simple, pero con un mayor número de ingredientes, donde su única condición es que la cantidad de ingredientes sea par para poder lograr el resultado óptimo. La ejecución del método es la misma que la del cuadrado de Pearson simple.
+                    
+    .row.justify-content-center(style="margin-bottom: 5rem")
+          .col-lg-12
+            .contenedor-texto2
+              .contenedor-title2
+                p.mb-0.text-center.text-white
+                  b Ecuaciones simultáneas
+              p.mb-5 Este método requiere un poco más de conocimiento matemático y algebraico, donde es posible determinar dos o más ecuaciones con dos o más materias primas o ingredientes, cuyo objetivo es encontrar la incógnita, para lo cual se tienen, como primer paso, que determinar las materias primas a utilizar y el requerimiento del animal. Seguido a este paso, hay que convertir los datos a decimales; después, se expresan en las ecuaciones; posteriormente, se anula una incógnita y se despeja la siguiente; y por último, se hace el reemplazo de la incógnita. Es importante, después de terminar el proceso, hacer la comprobación de la formulación.
+                    
+    p.mb-4 Comprenda el paso a paso para hallar las ecuaciones. 
+      
+    .row.justify-content-center.mb-5
+      .col-9.col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img8.png', alt='imagen ambiental', style="width: 475px;").m-auto
+      .col-lg-7
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Paso 1. Determinación de la materia prima ")
+            .col-md-12
+              p.mb-0 Maíz grano--------------🡪 8.8 %
+              p.mb-0 Torta de soya---------- 45 %
+              p.mb-0 Requerimiento---------🡪 15 %
+              
+            
+            
+          .row(numero="2" titulo="Paso 2. Convertir a decimales ")
+            .col-md-12
+              p.mb-4 Se dividen estos porcentajes por 100 
+              p.mb-0 Maíz grano-----------🡪 0.088
+              p.mb-0 Torta de soya--------🡪 0.45
+              p.mb-0 Requerimiento ------🡪 0.15
+            
+            
+          .row(numero="3" titulo="Paso 3. Expresar las ecuaciones")
+            .col-md-12
+              p.mb-0 X = Maíz grano
+              p.mb-0 Y = Torta de soya 
+              p.mb-4 1 = 100% de lo deseado, o sea, el requerimiento 
+              p.mb-0 Donde la fórmula A es:&nbsp; X + Y = 1
+              p.mb-0 Donde la fórmula B es:&nbsp; 0.0888X + 0.45Y = 0.15
+                
+          .row(numero="4" titulo="Paso 4. Anulación de la incógnita")
+            .col-md-12
+              p.mb-4 Se toma la fórmula A y se multiplica por el valor negativo del coeficiente de X en la fórmula B, expresándola de esta manera:
+              p.mb-0 -0.088X - 0.088Y = - 0.088
+              p.mb-0 
+                b &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+              p.mb-4 0.088X + 0,45Y = 0,15
+              p Se realiza una suma vertical de las dos fórmulas, donde se cancela  el valor X de ambas fórmulas y se resuelve el valor Y
+              p.mb-0  0.362Y = 0.062
+                
+          .row(numero="5" titulo="Paso 5. Despeje de la otra ecuación")
+            .col-md-12
+              p
+                
+          .row(numero="6" titulo="Paso 6. Reemplazo de la incógnita")
+            .col-md-12
+              p
+                
+
+
 
 
 
