@@ -353,16 +353,84 @@
 
     p.mb-5 La transformación de las diferentes materias primas es un proceso a través del cual una materia prima de valores nutricionales y costos bajos logra convertirse en una ración alimenticia con un valor nutricional alto. Este valor de producción se adiciona por medio de diferentes técnicas que agregan un valor al componente nutricional e inocuo de las materias primas.  Dentro de las técnicas de transformación, se encuentran el lavar, pasteurizar, congelar, envasar, peletizar, extrudizar y la adición de conservantes, entre otros factores. Dentro de la transformación de los alimentos o raciones, los métodos más conocidos son los pellets y extrudes. A continuación, se describe cada uno de los métodos de transformación.
 
+    SlyderB.mb-5(:datos="datosSlyder")
 
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0.onTop
+        p.mb-2 Comprendida la clasificación y características de las materias primas según su origen, es momento de identificar los métodos de acopio (almacenamiento) e inspección de las materias primas, las cuales requieren ser guardadas desde diferentes lineamientos. Es necesario que entienda que un acopio o almacenamiento se caracteriza por reunir o agrupar elementos: materias primas, en este contexto. Para su custodia, existen formas de reunirlos y disponerlos para el proceso de elaboración de raciones. Las técnicas deben garantizar la inocuidad de las materias primas.
+        .neg--right.p-4.fondo-hoja(style="background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
+          p.mb-4 En las producciones, se establecen diferentes métodos de acopio o almacenamiento de las materias primas, según las condiciones del almacén. A ellos se les debe asegurar el flujo eficaz y oportuno hacia el área de elaboración o producción. Esto, garantizando la calidad y cantidad de los productos bajo una manipulación y acopio desde las condiciones organolépticas de estas. 
+          p.mb-0 Los métodos para el acopio de las materias primas dentro de un almacén dependen de factores como el espacio y utilización de este, así como de la forma de colocar las materias primas. Las formas más comunes de acomodar y organizar son las siguientes: 
+      .col-9.col-lg-5
+        figure
+          img(src='@/assets/curso/tema3/img13.png', alt='imagen ambiental', style="width: 500px").m-auto
+    
+    
 
-    
-    
-    
+    p.mb-5 Los diferentes ingredientes que componen la dieta varían y generan una gran diversidad de estados, pasando desde polvo hasta el líquido. Usted debe aprender a identificar la materia prima a partir de su tamaño, humedad, poder de colmatación, aglomeración, de resistencia al frío, al calor, entre otros. Todo ello define el orden de la ración, para entregar un alimento de calidad al animal y bajo condiciones estandarizadas. A continuación, se exponen algunos criterios que usted debe considerar en su zona de trabajo.
+
+    .row.mb-4
+      .col-lg-12
+        .p-5(style="background-color: #d8e2eb; border-top-left-radius: 50px; border-bottom-right-radius: 50px;")
+          .row.justify-content-center.align-items-center
+            .col-lg-6.mb-4.mb-lg-0
+              ul.lista-ul
+                li 
+                  i.fas.fa-play(style="color: #FFB500")
+                  p.mb-0 Los ingredientes de baja densidad deben agregarse primero. Entre ellos, se encuentra el heno o paja. Cuando se agrega de primero, se asegura una mezcla homogénea de los ingredientes y esto evita la selección por parte del animal.
+                    
+                    
+                li 
+                  i.fas.fa-play(style="color: #FFB500")
+                  p.mb-0 Las materias primas que sean similares, frente a su tamaño y densidades, son propensas a mezclarse fácil y rápidamente. Por ejemplo: se pueden colocar los granos molidos, harinas, extruidos y pellets frente a densidades que son muy parecidas. Posteriormente a esto, se deben agregar los diferentes minerales y aditivos, todos los ingredientes que se usan en más bajas proporciones.
+                    
+                    
+                li 
+                  i.fas.fa-play(style="color: #FFB500")
+                  p.mb-0 Cuando se adicionan minerales a las materias primas o ingredientes, se debe garantizar una mezcla homogénea. El tiempo de preparación es de tres (3) minutos.
+                    
+                    
+                li 
+                  i.fas.fa-play(style="color: #FFB500")
+                  p.mb-0 Entregar al animal las materias primas húmedas con bajo componente aglutinante y alto nivel de humedad. Este puede ubicarse en el antepenúltimo orden. 
+                    
+                    
+                li 
+                  i.fas.fa-play(style="color: #FFB500")
+                  p.mb-0 Los subproductos viscosos, pegajosos y/o húmedos, como la melaza o el gluten, se pueden agregar a la ración animal de últimos.
+                    
+                
+                    
+            .col-10.col-lg-6
+              figure
+                img(src='@/assets/curso/tema3/img14.svg', alt='imagen ambiental', style="width: 600px;").m-auto
+
     separador
     #t_3_4.titulo-segundo.color-acento-contenido
       .h2 3.4 Criterios e interpretación de fórmulas
     
     
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-9.col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img15.png', alt='imagen ambiental', style="width: 500px;").m-auto
+      .col-lg-7
+        .p-4.mb-3(style="background-color: #d8e2eb; border-top-right-radius: 40px; border-bottom-left-radius: 40px;")
+          p.mb-0 Uno de los errores comunes en la nutrición animal es confundir alimentar con formular. Cualquier persona puede realizar una formulación sin un conocimiento previo de nutrición, siguiendo unos requerimientos dados; pero la verdadera aplicación de la formulación animal es comprender al animal, su estado fisiológico, su anatomía, su etapa de desarrollo y los diferentes requerimientos nutricionales que cada uno de estos factores genera en el animal. La importancia de este proceso es la aplicación de las fórmulas y los valores nutricionales adecuados para cada alimento animal. Las diferentes fórmulas empleadas deben tener los siguientes criterios:
+          
+        ul.lista-ul.pt-2(style="border-top: 1px solid #78b62e") 
+          li 
+            i.fas.fa-play(style="color: #78B62E")
+            p.mb-0 Necesidades nutricionales del animal.
+              
+          li 
+            i.fas.fa-play(style="color: #78B62E")
+            p.mb-0 Alimentos y análisis de alimentos.
+              
+        p.mb-0 Con estos criterios, se debe interpretar la buena utilización de las fórmulas y los resultados esperados, buscando siempre satisfacer los requerimientos del animal, para así lograr un índice productivo mayor de los animales.
+
+
     
     
     separador
@@ -370,10 +438,157 @@
       .h2 3.5 Buenas prácticas de fabricación de alimentos de uso animal
 
 
+    .row.justify-content-center.mb-5
+      .col-lg-5
+        p.mb-0 Las buenas prácticas de elaboración de los alimentos de uso animal son todas las acciones involucradas en este aspecto que brindan un estándar de inocuidad y calidad, según las diferentes normas y lineamientos que ofrecen a las diferentes especies un alimento de calidad.
+          
+      .col-lg-7.mb-4.mb-lg-0
+        .p-4.mb-3(style="background-color: #3c6d9d3f")
+          .bloque-texto-b.p-4.px-0
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left(style="color: #78B62E; font-size: 28px;")
+              p.mb-0 Las buenas prácticas de fabricación de alimentos (BPFA) constituyen el factor tendiente para asegurar que los alimentos se fabriquen en forma uniforme y controlada, de acuerdo con normas de calidad, el uso que se pretende dar y conforme con las condiciones establecidas para su comercialización.
+              i.fas.fa-quote-right(style="color: #78B62E; font-size: 28px;")
+            .bloque-texto-d__autor.d-flex.justify-content-start
+              p.mb-0 
+                b (ICA, 1998).
+        
+
+    p.mb-5 Dentro de las buenas prácticas, existen unos lineamientos de garantía de calidad, los cuales se toman desde el concepto individual hasta el colectivo, estos son:
+
+    .row.justify-content-center.mb-4
+      .col-lg-12
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--acordion")
+          .row.justify-content-center(titulo="Personal")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-4 Un sistema productivo gestionado desde los estándares de las BPFA necesita un personal entrenado desde un método de evaluación y supervisión constante. Para la producción, la empresa debe contar con un organigrama o una programación de funciones específicas. Además de lo anterior, la empresa debe tener condiciones que favorezcan la salud del personal. Algunas prácticas que se deben fomentar son: la limpieza y desinfección de las diferentes áreas laborales, las condiciones de entrega de materias primas y traslado
+                  p.mb-0 Cabe mencionar que el personal debe utilizar siempre todos los elementos de protección requeridos para la labor que está realizando, donde la empresa pecuaria será responsable de la capacitación en los temas de higiene, manipulación de alimentos, seguridad y elementos de protección personal, aparte de las especificaciones de las funciones a realizar.  Para la empresa, es importante tener en cuenta las diferentes políticas empresariales, los POE y las listas de chequeo.
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img16.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
+          .row.justify-content-center(titulo="Instalaciones ")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-0 Las instalaciones sugeridas en las buenas prácticas deben estar construidas, adaptadas, ubicadas y mantenidas con el propósito de beneficiar un proceso, al margen de errores mínimos de riesgos. Las instalaciones deben mantenerse limpias y desinfectadas, de acuerdo con protocolos. Además, tener las áreas con buena iluminación, temperatura, humedad y ventilación, para evitar plagas. Cuando planee una instalación, tenga presente: 1. Separación de las diferentes áreas productivas, 2. Almacenamiento, 3. Control de calidad, 4.  Descanso/Refrigerio y 5. Servicios sanitarios.
+                    
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img17.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
+          .row.justify-content-center(titulo="Equipos")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-0 Las diferentes operaciones realizadas en el proceso de elaboración de raciones están determinadas por el diseño, construcción y ubicación de los diferentes equipos y maquinaria. Estos últimos se deben ubicar de tal manera que minimicen la pérdida de materia prima, mantenimiento, limpieza y desinfección.   Tenga presente establecer un adecuado programa de mantenimiento, que asegure la limpieza y el correcto funcionamiento de todos los equipos. De esta actividad, debe llevarse un registro completo. Esto es de vital importancia, sobre todo, en algunos equipos utilizados en la industria de alimentos para animales, como son peletizados, expansores y extrusores (ICA, 1998).
+                    
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img18.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
+          .row.justify-content-center(titulo="Materiales")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-0 Las diferentes materias primas deben ser adquiridas de proveedores confiables, certificados y avalados por los diferentes medios de control, asegurando así su veracidad frente a la información suministrada y dando el parte de calidad de esta. Todas deben ser inspeccionadas bajo criterios de calidad e inocuidad, teniendo en cuenta los diferentes factores que puedan alterar la materia prima. El almacenamiento de dichas materias primas debe ser apropiado para cada una y asegurando que se realice el previo etiquetado, rotulado con número de lote, y toma de muestra. Cuando usted rechace un material, haga una rotación y almacene la materia en lugares determinados y restringidos. Finalmente, cuando manipule material de desecho, recoléctelo y empáquelo adecuadamente para ser llevado a los diferentes centros de disposición de residuos para realizar su tratamiento o eliminación.
+                    
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img19.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
+          .row.justify-content-center(titulo="Alimentos medicados")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-0 Cada vez que se elaboran alimentos con fármacos veterinarios, se deben tener en cuenta condiciones importantes, como lo es la prescripción del médico veterinario. El utilizar medicamentos registrados es importante, así como el tiempo de retiro del medicamento y su rotulación en el alimento, para evitar contaminación. Según la FDA (2014), la contaminación de alimentos para uso animal producida por los fármacos veterinarios fue de 11 %, principalmente causada por el uso de implementos mal aseados, que contenían trazas de medicamentos, de allí la importancia de la limpieza o, si es posible, el uso único de implementos para estas labores de preparación. 
+                    
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img20.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
+          .row.justify-content-center(titulo="Documentos")
+            .col-lg-12
+              .row.justify-content-center.align-items-center
+                .col-11.col-lg.mb-4.mb-lg-0
+                  p.mb-0 La documentación es una de las partes fundamentales en el proceso de las Buenas Prácticas de Fabricación de Alimentos, porque el registro o recolección de datos de cada proceso es fundamental para realizar un análisis, evaluar indicadores, verificar el cumplimiento de muchas labores y fuentes de trazabilidad. Esta documentación de producción y control de calidad se debe actualizar y verificar de manera continua, para así generar un sistema de calidad íntegro y eficiente.
+                  
+                    
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema3/img21.svg', alt='imagen ambiental', style="width: 170px").m-auto
+                    
 
 
+    .row.mb-4
+      .col-lg-12
+        .p-5(style="background-color: #ddedcb; border-top-left-radius: 50px; border-bottom-right-radius: 50px;")
+          .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              figure
+                img(src='@/assets/curso/tema3/img25.svg', alt='imagen ambiental', style="width: 580px;").m-auto
+            .col-lg-6.mb-4.mb-lg-0
+              p En resumen, las buenas prácticas de preparación de alimentos que usted debe fomentar y que fueron caracterizadas anteriormente son: 
+              ul.lista-ul
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Utilización de equipos e instalaciones adecuadas para la elaboración de alimentos.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Personal capacitado y procedimientos aprobados por el ente regulador.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Métodos de ensayo válidos.
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Registros de todos los procedimientos y resultados obtenidos. 
+                li 
+                  i.fas.fa-play(style="color: #78B62E")
+                  p.mb-0 Independencia o libre elección de las materias primas aprobadas o rechazadas después de que sea una materia prima aprobada para su uso en alimentos por el ente regulador.
+                    
+              p.mb-0 El estricto cumplimiento de ellas llevará, sin duda, al logro de la calidad total en la elaboración de los insumos, facilitando su acceso al comercio internacional (ICA, 1998). Dentro de las BPFA, es de fundamental comprender las diferentes enfermedades transmitidas por los alimentos (ETA) para su prevención. A continuación, se exponen los procesos que alteran la inocuidad de los alimentos.
 
-
+    .row.justify-content-center
+      .col-lg-12
+        TabsC.color-acento-contenido
+          .py-3.py-md-4(titulo="Malos procesos de limpieza y desinfección")
+            .row.justify-content-center
+              .col-lg-8
+                figure.mb-4
+                  img(src='@/assets/curso/tema3/img26.png', alt='imagen ambiental', style="").m-auto
+                ul.lista-ul
+                  li 
+                    i.fas.fa-play(style="color: #78B62E")
+                    p.mb-0 Mala higiene del personal.
+                  li 
+                    i.fas.fa-play(style="color: #78B62E")
+                    p.mb-0 Operarios enfermos.
+                      
+                
+          .py-3.py-md-4(titulo="Manipulación inadecuada")
+            .row.justify-content-center
+              .col-lg-8
+                figure.mb-4
+                  img(src='@/assets/curso/tema3/img27.png', alt='imagen ambiental', style="").m-auto
+                ul.lista-ul
+                  li 
+                    i.fas.fa-play(style="color: #78B62E")
+                    p.mb-0 Productos químicos en los alimentos.
+                  li 
+                    i.fas.fa-play(style="color: #78B62E")
+                    p.mb-0 Temperaturas inadecuadas.
+                      
+                  li 
+                    i.fas.fa-play(style="color: #78B62E")
+                    p.mb-0 Contaminación cruzada.
+                      
 
 
     
@@ -385,6 +600,26 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Molienda',
+        texto:
+          'Proceso que se le realiza a las materias primas, en especial a los granos, a través de herramientas o máquinas que fracturan el producto,  para lograr una mejor mezcla en la ración y digestibilidad por parte de los animales. <br>La molienda se puede separar en pre-molienda y post-molienda. La pre-molienda se realiza principalmente a materias primas que posteriormente serán almacenadas, y la post-molienda es antes del proceso de mezcla.',
+        imagen: require('@/assets/curso/tema3/img10.jpg'),
+      },
+      {
+        titulo: 'Pellets',
+        texto:
+          'El peletizado es un proceso que toma las materias primas seleccionadas y pesadas. Estas se pueden encontrar en polvo con baja palatabilidad, lo que lo hace difícil de suministrar al animal; por eso, a través del aumento de temperatura y manejo de la humedad, se ejerce una fuerza mecánica, para transformar la materia prima en partículas mucho más grandes, que son fáciles de ingerir por el animal. <br> El tamaño del pellet puede variar según el tamaño y las condiciones fisiológicas de la ingesta del animal. Estos son usualmente formados cilíndricamente y varían desde 3/32" (2,38 mm) hasta 1 3/8” (34,9mm), a pesar de que hay tamaños más grandes, pero que resultan poco frecuentes. (Muñoz, 2004).',
+        imagen: require('@/assets/curso/tema3/img11.jpg'),
+      },
+      {
+        titulo: 'Extruido',
+        texto:
+          'Es un proceso adicional dado a los pellets. Se caracteriza por transformarse en extrusión, donde un proceso de cocción continua y pareja producen una unión, cambios de forma, estructura, flotabilidad y composición de la materia prima.  Es muy utilizado en la acuicultura, por su característica flotabilidad debido a la formación de lipo-carbohidratos.',
+        imagen: require('@/assets/curso/tema3/img12.jpg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
