@@ -272,24 +272,59 @@
           .row(numero="4" titulo="Paso 4. Anulación de la incógnita")
             .col-md-12
               p.mb-4 Se toma la fórmula A y se multiplica por el valor negativo del coeficiente de X en la fórmula B, expresándola de esta manera:
-              p.mb-0 -0.088X - 0.088Y = - 0.088
-              p.mb-0 
-                b &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
-              p.mb-4 0.088X + 0,45Y = 0,15
+              p.mb-0.text-center
+                b -0.088X - 0.088Y = - 0.088
+              p.mb-0.text-center
+                b +
+              p.mb-4.text-center
+                b  0.088X + 0.45Y = 0.15
               p Se realiza una suma vertical de las dos fórmulas, donde se cancela  el valor X de ambas fórmulas y se resuelve el valor Y
-              p.mb-0  0.362Y = 0.062
+              p.mb-0.text-center
+                b  0.362Y = 0.062
                 
           .row(numero="5" titulo="Paso 5. Despeje de la otra ecuación")
             .col-md-12
-              p
+              p.text-center 0.362Y = 0.062
+              p.text-center.mb-0 Donde Y es igua a:
+              p.text-center
+                b Y = (0.062/0.362)
+              p.text-center
+                b Y = 0.1713, 
+                b-none este es el valor de Y
                 
           .row(numero="6" titulo="Paso 6. Reemplazo de la incógnita")
             .col-md-12
-              p
-                
+              p Se toma la ecuación A y se reemplaza el valor de Y hallado previamente.
+              p.text-center
+                b A: X + 0.1713 = 1
+              p.text-center
+                b A: X = 1 - 0.1713 
+              p el resultado de Y pasa al otro lado a restar, de esta manera resolviendo el valor de X
+              p.text-center
+                b X = 0.8287
+              p Posterior a este proceso, los valores tanto de X como de Y se deben multiplicar por 100 para convertirlos en porcentajes, donde se sabe que :
+              p.text-center
+                b X = Maíz de grano 0.8287 -----🡪 82.87 %
+              p.text-center.mb-4
+                b Y = Torta de soya 0.1713 -----🡪 17.13 %
+              p.mb-0 Para realizar la comprobación de la formulación, se realiza la sumatoria de los porcentajes, lo cual, como resultado, debe dar 100 %, o 99% a causa de los decimales.
 
+    .row.justify-content-center(style="margin-bottom: 5rem")
+      .col-lg-10
+        .p-5(style="background-color: #ddedcb; border-top-left-radius: 50px; border-bottom-right-radius: 50px;")
+          p.mb-0
+            b Con estos porcentajes, se puede empezar a realizar el racionamiento de las materias primas, dependiendo de la cantidad de alimento a suministrar, donde se multiplica el valor de X por la cantidad de kilos y el valor de Y por la cantidad de kilos de alimento a suministrar.
 
-
+    .row.justify-content-center.mb-4
+          .col-lg-12
+            .contenedor-texto2
+              .contenedor-title2
+                p.mb-0.text-center.text-white
+                  b Métodos computarizados
+              p.mb-4 Existen métodos computarizados especializados para la formulación de raciones, los cuales emplean las grandes industrias alimenticias, para así generar una adición completa y exacta de vitaminas, minerales, proteínas, aditivos, aminoácidos esenciales, entre otros. Dentro de estos, se pueden encontrar las diferentes tablas de Excel, el componente SOLVER, entre otros. 
+              p.mb-0 
+                b Nota. 
+                b-none  Las tablas de composición de los alimentos se anexan en el material complementario como documentos de apoyo.
 
 
     separador
@@ -297,12 +332,29 @@
       .h2 3.2 Tratamiento de ración
     
     
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-9.col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img9.png', alt='imagen ambiental', style="width: 500px;").m-auto
+      .col-lg-7
+        .p-4.mb-3(style="background-color: #d8e2eb; border-top-right-radius: 40px; border-bottom-left-radius: 40px;")
+          p.mb-0 El tratamiento de las raciones está orientado a ofrecer inocuidad y confiabilidad de los alimentos cuando se asegura una ración alimenticia libre de patógenos que alteran el metabolismo animal. Esto genera retrasos e inconvenientes en la producción.
+        p.mb-0.pt-2(style="border-top: 1px solid #78b62e") 
+          b-none El tratamiento más utilizado en las industrias alimenticias es a base de calor, donde se realiza en corto tiempo la elevación de temperaturas, logrando un efecto de compresión y descompresión. Esto destruye los componentes bacterianos o microorganismo y se evita la pérdida de nutrientes de la ración o alimento. Dentro del tratamiento dado a las raciones, la eliminación de impurezas que pueden resultar del proceso es una actividad de importancia para asegurar la calidad del producto, ya que se pueden eliminar impurezas tales como metales, piedras, entre otros, de las materias primas utilizadas; esta puede ser realizada por métodos manuales, como el zarandeo, o tecnificados, como por aspiración.
+
+
     
     
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
       .h2 3.3 Transformación materias primas
     
+
+    p.mb-5 La transformación de las diferentes materias primas es un proceso a través del cual una materia prima de valores nutricionales y costos bajos logra convertirse en una ración alimenticia con un valor nutricional alto. Este valor de producción se adiciona por medio de diferentes técnicas que agregan un valor al componente nutricional e inocuo de las materias primas.  Dentro de las técnicas de transformación, se encuentran el lavar, pasteurizar, congelar, envasar, peletizar, extrudizar y la adición de conservantes, entre otros factores. Dentro de la transformación de los alimentos o raciones, los métodos más conocidos son los pellets y extrudes. A continuación, se describe cada uno de los métodos de transformación.
+
+
+
     
     
     
