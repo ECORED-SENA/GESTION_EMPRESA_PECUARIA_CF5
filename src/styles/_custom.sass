@@ -87,6 +87,8 @@
   background-color: #e8eef3 
   border-bottom: 0 
 
+
+////centro
 .contenedor-texto
   background-color: #ffff
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
@@ -178,3 +180,88 @@
 
 .tabs-c.color-acento-contenido .tabs-c__tab--active
   font-weight: bold
+
+.contenedor-full
+  position: relative
+  width: 100%
+  padding-bottom: 8rem
+  @media screen and ( max-width: 992px)
+    padding-bottom: 4rem
+
+.contenedor-descipcion
+  position: absolute
+  bottom: 0%
+  left: 50%
+  transform: translateX(-50%) translateY(-30%)
+  width: 86%
+  height: auto
+  background-color: #12263f
+  filter: drop-shadow(2px 4px 6px grey)
+  padding: 2rem
+  display: inline-block
+  align-items: center
+  justify-content: center
+  @media screen and ( max-width: 992px)
+    position: relative
+    bottom: 0%
+    left: 50%
+    transform: translateX(-50%) translateY(0%)
+    width: 90%
+    height: auto
+    background-color: #12263f
+    filter: drop-shadow(2px 4px 6px grey)
+    padding: 2rem
+    display: inline-block
+    align-items: center
+    text-align: center
+    justify-content: center
+    border-bottom-right-radius: 20px
+    border-bottom-left-radius: 20px
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #78B62E
+    border-radius: 0
+    color: #fff !important
+    background-image: url('../assets/curso/tema5/arrow-custom.svg')
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  transform: translateY(-50%) rotate(180deg)
+  left: -12px
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  transform: translateY(-50%) rotate(0deg)
+  right: -12px
+
+
+.slyder-a__tipo-a .slyder-a__bullets 
+  bottom: -24px
+
+.cuadro-header
+  background-color: #78B62E
+  color: #fff
+  border-top-right-radius: 30px
+  border-bottom-left-radius: 30px
+  filter: drop-shadow(2px 4px 6px grey)
+  padding: 2rem
+  padding-bottom: 1.5rem
+  padding-top: 1.5rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -107,7 +107,7 @@
                 
     p.mb-5 Dentro del área de almacenamiento, es importante guardar los alimentos y las materias primas según sus condiciones organolépticas. Existen varios tipos de almacenamiento, ellos son: 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-12
         TabsC.color-acento-contenido
           .py-3.py-md-4(titulo="Almacenamiento en seco")
@@ -156,10 +156,17 @@
                   b-none El almacenamiento congelado es principalmente direccionado a alimentos perecederos, tales como: lácteos, carnes, huesos y subproductos animales, los cuales, por sus condiciones organolépticas, tienden a tener una vida útil mucho más corta.  Esta custodia, a través de una cadena de frío, logra atenuar las condiciones favorables para el crecimiento bacteriano. La refrigeración a temperaturas por debajo de 4 °C inhibe el crecimiento de la mayoría de las bacterias patógenas, pero no las mata; por lo tanto, los cuartos refrigerados mantendrán temperaturas entre 2,5 °C a 6 °C. 
                   b(style="color: #78B62E")  (UIS, 2008).
                   
-              .col-lg-6
+              .col-10.col-lg-6
                 figure.mb-4
                   img(src='@/assets/curso/tema4/img5.png', alt='imagen ambiental', style="width: 500px").m-auto
-                    
+                  
+
+    p.mb-5 Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
+
+    .row.justify-content-center
+      .col-lg-12
+        figure.mb-0
+          img(src='@/assets/curso/tema4/img6.svg', alt='imagen ambiental', style="").m-auto
 
 
 
