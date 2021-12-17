@@ -96,7 +96,7 @@
                           .tarjeta.tarjeta-borde-blanca
                             .p-4
                               p.mb-4.text-center 
-                                b Molino de tornillo sin fin.
+                                b Molino de tornillo sin fin
                               p.mb-3 Produce la ruptura de las partículas por la presión que ejerce el tornillo sobre la malla.
                               figure
                                 img.mx-auto(src='@/assets/curso/tema5/img7.jpg' alt='Imagen ambiental' style='width: 232px;')

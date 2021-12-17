@@ -45,7 +45,7 @@
                 td 
                   b Nitr&oacute;geno no proteico 
                 td
-                  | (solo utilizado en las dietas para rumiantes) compuesto por urea, sales de amonio, nitritos, nitratos, entre otros.
+                  | (Solo utilizado en las dietas para rumiantes) compuesto por urea, sales de amonio, nitritos, nitratos, entre otros.
               tr
                 td 
                   b Gluc&oacute;sidos solubles 
@@ -55,7 +55,8 @@
                   b Gluc&oacute;sidos estructurales 
                 td Solo para rumiantes, estructurados por hemicelulosa y celulosa.
               tr
-                td L&iacute;pidos- extracto et&eacute;reo
+                td 
+                  b Lípidos- extracto etéreo
                 td &Aacute;cidos grasos, triglic&eacute;ridos y glicerol. 
               tr
                 td 
@@ -109,7 +110,7 @@
                 .col-md-12
                   .h5.mb-2(style="color: #12263f;") Tercera muestra
                   p.mb-4(style="color: #12263f;") Se somete por medio de un disolvente a la extracción del extracto etéreo o componente grasa de la materia prima, teniendo en cuenta que se realiza la extracción de aceites y todos los componentes liposolubles. El restante se somete al componente ácido y, después, al componente alcalino, para obtener la fibra bruta o cruda.
-                  p.mb-0(style="color: #12263f;") El extracto libre de nitrógeno se obtiene del faltante para llegar a 100%, después de los procedimientos anteriores, siendo estos principalmente los componentes glucósidos solubles. 
+                  p.mb-0(style="color: #12263f;") El extracto libre de nitrógeno se obtiene del faltante para llegar a 100 %, después de los procedimientos anteriores, siendo estos principalmente los componentes glucósidos solubles. 
                     
           .tarjeta.color-acento-contenido.p-3(x="92.8%" y="70.7%" numero="")(style=" border-top-right-radius: 0px; border-bottom-left-radius: 0px")
             .h5.mb-2(style="color: #12263f;") Método análisis de van Soest
@@ -163,7 +164,7 @@
               
           .tarjeta.color-secundario.p-4(titulo="Energía metabolizable (EM)")(style="border-radius: 10px; background-color: #e2e9f0;")
             h5 Energía metabolizable (EM)
-            p.mb-0 Proceso de pérdida producido por la orina y los gases de la digestión (rumiantes). Se observó para los rumiantes que el valor de energía metabolizable representa alrededor del 82% de la energía digestible, por lo que la EM se puede estimar con tan solo multiplicar ED x 0.82. En cerdos y aves, la relación es mucho más variable, pero está cerca del 92%, ED x 0.92 = EM. 
+            p.mb-0 Proceso de pérdida producido por la orina y los gases de la digestión (rumiantes). Se observó para los rumiantes que el valor de energía metabolizable representa alrededor del 82 % de la energía digestible, por lo que la EM se puede estimar con tan solo multiplicar ED x 0.82. En cerdos y aves, la relación es mucho más variable, pero está cerca del 92 %, ED x 0.92 = EM. 
               
           .tarjeta.color-secundario.p-4(titulo="Energía neta (EN)")(style="border-radius: 10px; background-color: #e2e9f0;")
             h5 Energía neta (EN)
@@ -212,7 +213,7 @@
               .contenedor-title2
                 p.mb-0.text-center.text-white
                   b Método de cuadrado de Pearson Simple 
-              p.mb-5 Es un método de formulación de raciones de elaboración manual, en el cual se utilizan las proteínas brutas de dos materias primas, donde es importante contar con una fuente energética y una fuente proteica. Se debe realizar un cuadro, donde se separan los alimentos, la proteína bruta del alimento, la concentración deseada, las partes y proporción de las fuentes alimenticias. Posterior a esto, se toma la proteína bruta del maíz, cuyo valor es 7.5%, y la proteína bruta de la soja tostada, que es de 36,8%; donde el maíz cumple el requerimiento energético y la soja tostada, el proteico. Seguidamente, se elige la concentración deseada, según el requerimiento del animal; en este caso, será de 18%. Teniendo estos valores, se procede a restar los valores de proteína bruta y concentración deseada; es importante restar primero el número mayor, ambos resultados se suman. Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo: 
+              p.mb-5 Es un método de formulación de raciones de elaboración manual, en el cual se utilizan las proteínas brutas de dos materias primas, donde es importante contar con una fuente energética y una fuente proteica. Se debe realizar un cuadro, donde se separan los alimentos, la proteína bruta del alimento, la concentración deseada, las partes y proporción de las fuentes alimenticias. Posterior a esto, se toma la proteína bruta del maíz, cuyo valor es 7.5 %, y la proteína bruta de la soja tostada, que es de 36,8 %; donde el maíz cumple el requerimiento energético y la soja tostada, el proteico. Seguidamente, se elige la concentración deseada, según el requerimiento del animal; en este caso, será de 18 %. Teniendo estos valores, se procede a restar los valores de proteína bruta y concentración deseada; es importante restar primero el número mayor, ambos resultados se suman. Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo: 
               .row.justify-content-center.mb-4
                 .col-lg-10
                   figure
@@ -278,7 +279,7 @@
             .col-md-12
               p.mb-0 X = Maíz grano
               p.mb-0 Y = Torta de soya 
-              p.mb-4 1 = 100% de lo deseado, o sea, el requerimiento 
+              p.mb-4 1 = 100 % de lo deseado, o sea, el requerimiento 
               p.mb-0 Donde la fórmula A es:&nbsp; X + Y = 1
               p.mb-0 Donde la fórmula B es:&nbsp; 0.0888X + 0.45Y = 0.15
                 
@@ -289,11 +290,13 @@
                 b -0.088X - 0.088Y = - 0.088
               p.mb-0.text-center
                 b +
-              p.mb-4.text-center
+              p.text-center.mb-0
                 b  0.088X + 0.45Y = 0.15
-              p Se realiza una suma vertical de las dos fórmulas, donde se cancela  el valor X de ambas fórmulas y se resuelve el valor Y
-              p.mb-0.text-center
-                b  0.362Y = 0.062
+              .row.justify-content-center
+                .col-auto
+                  p.mb-4.text-center(style="border-top: 2px solid #12263f")
+                    b  0.362Y = 0.062
+              p.mb-0 Se realiza una suma vertical de las dos fórmulas, donde se cancela  el valor X de ambas fórmulas y se resuelve el valor Y
                 
           .row(numero="5" titulo="Paso 5. Despeje de la otra ecuación")
             .col-md-12
@@ -320,7 +323,7 @@
                 b X = Maíz de grano 0.8287 -----🡪 82.87 %
               p.text-center.mb-4
                 b Y = Torta de soya 0.1713 -----🡪 17.13 %
-              p.mb-0 Para realizar la comprobación de la formulación, se realiza la sumatoria de los porcentajes, lo cual, como resultado, debe dar 100 %, o 99% a causa de los decimales.
+              p.mb-0 Para realizar la comprobación de la formulación, se realiza la sumatoria de los porcentajes, lo cual, como resultado, debe dar 100 %, o 99 % a causa de los decimales.
 
     .row.justify-content-center(style="margin-bottom: 5rem")
       .col-lg-10
@@ -370,10 +373,9 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-4.mb-lg-0.onTop
-        p.mb-2 Comprendida la clasificación y características de las materias primas según su origen, es momento de identificar los métodos de acopio (almacenamiento) e inspección de las materias primas, las cuales requieren ser guardadas desde diferentes lineamientos. Es necesario que entienda que un acopio o almacenamiento se caracteriza por reunir o agrupar elementos: materias primas, en este contexto. Para su custodia, existen formas de reunirlos y disponerlos para el proceso de elaboración de raciones. Las técnicas deben garantizar la inocuidad de las materias primas.
+        p.mb-2 Continuando en el contexto de las transformaciones, es importante comprender la mezcla de los ingredientes.  Su importancia está al nivel de la selección de las materias primas, porque, dependiendo de una mezcla adecuada, está el éxito de la ración elaborada. Sin duda, este proceso puede marcar la diferencia entre el éxito o el fracaso de la ración. Es importante tener un protocolo estándar en la preparación de las raciones, para así asegurar: 1.  La uniformidad de la ración preparada, 2. Uniformidad de los lotes, y 3. Información frente al uso de las materias primas. Esto sin duda ayuda a evitar la alteración de los diferentes sistemas digestivos de los animales y, por ende, afecta la producción.
         .neg--right.p-4.fondo-hoja(style="background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
-          p.mb-4 En las producciones, se establecen diferentes métodos de acopio o almacenamiento de las materias primas, según las condiciones del almacén. A ellos se les debe asegurar el flujo eficaz y oportuno hacia el área de elaboración o producción. Esto, garantizando la calidad y cantidad de los productos bajo una manipulación y acopio desde las condiciones organolépticas de estas. 
-          p.mb-0 Los métodos para el acopio de las materias primas dentro de un almacén dependen de factores como el espacio y utilización de este, así como de la forma de colocar las materias primas. Las formas más comunes de acomodar y organizar son las siguientes: 
+          p.mb-0 La dieta o ración animal debe estar perfectamente formulada para las necesidades de los animales, para lograr los objetivos productivos deseados.  En la mezcla de los ingredientes, influyen muchos factores que pueden variar dependiendo del sistema productivo, donde muchas veces el orden de la mezcla está ligado a la practicidad del operario, del establecimiento, ubicación de las materias primas, disponibilidad, tiempos de mezclado, entre otros. De allí la importancia de la ubicación y la manera de almacenamiento de las materias primas, teniéndose en cuenta, desde el primer momento del proceso, para generar una comodidad del personal y un mínimo flujo de movimiento de maquinarias o equipo.
       .col-9.col-lg-5
         figure
           img(src='@/assets/curso/tema3/img13.png', alt='imagen ambiental', style="width: 500px").m-auto

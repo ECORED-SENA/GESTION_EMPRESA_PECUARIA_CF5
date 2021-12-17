@@ -22,26 +22,26 @@
           .col-auto.mb-4.mb-lg-5
             .tarjeta.bg-white.p-5
               p.mb-4.text-center
-                b La especie
+                b Requerimiento para cada especie
               figure
                 img(src='@/assets/curso/tema1/icon2.svg', alt='icono que acompaña', style="width: 143px;").m-auto
           .col-auto.mb-4.mb-lg-5
             .tarjeta.bg-white.p-5
               p.mb-4.text-center
-                b La especie
+                b Ingredientes o materias primas
               figure
                 img(src='@/assets/curso/tema1/icon3.svg', alt='icono que acompaña', style="width: 172px;").m-auto
         .row.justify-content-evenly.mb-0
           .col-auto.mb-4.mb-lg-5
             .tarjeta.bg-white.p-5
               p.mb-4.text-center
-                b La especie
+                b Costo
               figure
                 img(src='@/assets/curso/tema1/icon4.svg', alt='icono que acompaña', style="width: 168px;").m-auto
           .col-auto.mb-4.mb-lg-5
             .tarjeta.bg-white.p-5
               p.mb-4.text-center
-                b La especie
+                b Hábito del consumidor
               figure
                 img(src='@/assets/curso/tema1/icon5.svg', alt='icono que acompaña', style="width: 164px;").m-auto
             

@@ -161,6 +161,40 @@
                   img(src='@/assets/curso/tema4/img5.png', alt='imagen ambiental', style="width: 500px").m-auto
                   
 
+    .row.mb-4
+      .col-lg-4
+        .p-3.py-lg-4(style="background-color: #78B62E; border-top-right-radius: 30px; border-bottom-left-radius: 30px;")
+          p.text-white.mb-0.text-center
+            b Área de producción
+
+    .row.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0
+        .p-4.mb-3(style="background-color: #E8EEF3; border-top-right-radius: 60px; border-bottom-left-radius: 60px; background-size: 70px")
+          p.mb-0 El área de producción se define a partir de una serie de procedimientos que conllevan la transformación de las materias primas en alimentos planificados, siguiendo los diferentes estándares de calidad. En esta zona, están todos los equipos y herramientas utilizados para la transformación de las materias primas hasta el producto final. 
+            
+        p.pt-2(style="border-top: 1px solid #78b62e") 
+          b-none La zona de producción es fundamental en el sistema de elaboración de alimentos, porque allí se ejecutan los pasos esenciales para la elaboración de las raciones animales. Algunas acciones que se efectúan son:  peso de las materias primas o bache, transformaciones, mezclas, pelletizado, extrudizado. Cabe mencionar que esto puede variar según la industria. Se debe tener en cuenta la secuencia de las operaciones, para ubicar y distribuir las materias primas y los alimentos. Dentro del área de producción, se debe realizar una programación de la producción, teniendo en cuenta estos aspectos: 
+        ul.lista-ul
+          li 
+            i.fas.fa-play(style="color: #78B62E")
+            p.mb-0 Fecha de producción.
+          li 
+            i.fas.fa-play(style="color: #78B62E")
+            p.mb-0 Nombre del producto.
+          li 
+            i.fas.fa-play(style="color: #78B62E")
+            p.mb-0 Peso por producir.
+              
+      .col-9.col-lg-5
+        figure
+          img(src='@/assets/curso/tema4/img7.png', alt='imagen ambiental', style="width: 510px;").m-auto
+
+
+
+
+
+
+
     p.mb-5 Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
 
     .row.justify-content-center

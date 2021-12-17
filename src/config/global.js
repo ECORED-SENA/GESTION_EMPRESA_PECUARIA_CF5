@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Generalidades en la preparación de raciones para especies animales.',
+      'Generalidades en la preparación de raciones para especies animales',
     descripcionCurso:
       'El presente componente de formación surge de la necesidad de aproximarse a la alimentación animal como un componente importante en la producción porque es la base fundamental para la expresión genética de los mismos. La preparación de raciones es un componente importante en la nutrición animal para llegar a alcanzar los diferentes requerimientos energéticos, proteicos, vitamínicos y minerales, logrando así un sistema productivo rentable, bajo los lineamientos de unas buenas prácticas de alimentación.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
@@ -131,11 +131,11 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /*{
         icono: 'fas fa-sitemap',
         titulo: 'Sintesis',
         nombreRuta: 'sintesis',
-      },
+      },*/
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -319,7 +319,7 @@ export default {
       texto:
         'FAO. (2020). <em>Codex Alimentarius</em>. Principios generales de higiene de los alimentos. OMS.',
       tipo: 'Texto Digital',
-      descarga: '/downloads/prueba.pdf',
+      descarga: '/downloads/codex-alimentarius.pdf',
     },
     {
       texto: 'ICA. (2021). Alimentos. Gov.co. ',
@@ -331,13 +331,13 @@ export default {
       texto:
         'EEA INTA Balcarce. (2002). Composición de alimentos para rumiantes. Sitio Argentino de Producción Animal.',
       tipo: 'Repositorio Abierto',
-      descarga: '/downloads/prueba.pdf',
+      descarga: '/downloads/alimentos.pdf',
     },
     {
       texto:
         'Cerdas, R. (2013).  Formulación de raciones para carne y leche. Desarrollo de un módulo práctico para técnicos y estudiantes de ganadería de Guanacaste, Costa Rica. InterSedes, 14(29), p. 128-153.',
       tipo: 'Texto Digital',
-      descarga: '/downloads/prueba.pdf',
+      descarga: '/downloads/formulacion-raciones.pdf',
     },
   ],
   creditos: {
@@ -353,7 +353,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Juan Manuel Loaiza Trujillo',
+        cargo: 'Experto temático instructor',
+        centro: 'Centro latinoamericano de especies menores Tuluá- SENA.',
+      },
+      {
+        nombre: 'Cristian Metaute Medina',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica del SENA - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodología y pedagógica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -361,53 +382,65 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Eulises Orduz Amezquita'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Jorge Leonardo Camacho Pardo',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      /*{
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },*/
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

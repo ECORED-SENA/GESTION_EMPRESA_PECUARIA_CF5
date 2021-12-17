@@ -29,7 +29,7 @@
                 b-none Se le invita a observar el siguiente recurso educativo para más información. 
                 .row.justify-content-end
                   .col-lg-6
-                    a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=5CF3HZdu6Bc" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
@@ -116,7 +116,7 @@
                 .row.justify-content-center
                   .col-lg-6.mb-4.mb-lg-0
                     h4.mb-3 Riesgos mecánicos
-                    p.mb-0 Conjunto de eventos que pueden causar daño a un trabajador, como quemaduras, cortes, golpes, entre otros; en su mayoría, se presentan por la manipulación de herramientas y vehículos.                 .col-lg-6
+                    p.mb-0 Conjunto de eventos que pueden causar daño a un trabajador, como quemaduras, cortes, golpes, entre otros; en su mayoría, se presentan por la manipulación de herramientas y vehículos.
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema6/img8.png', alt='imagen ambiental', style="width: 400px").m-auto
