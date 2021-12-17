@@ -219,7 +219,20 @@
                     img(src='@/assets/curso/tema3/img7.svg', alt='imagen ambiental', style="").m-auto
               .row.justify-content-center.mb-4
                 .col-lg-10
-                  p.mb-0.text-center
+                  .row.justify-content-center.mb-4
+                    .col-lg-5.mb-4.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/tema3/cajon1.svg', alt='imagen ambiental', style="width: 320px").m-auto
+                    .col-lg-5
+                      figure
+                        img(src='@/assets/curso/tema3/cajon2.svg', alt='imagen ambiental', style="width: 320px").m-auto
+                  p.mb-4 Suponga que se quiere realizar una ración de 2.000 gr:
+                    
+                  .row.justify-content-center
+                    .col-lg-8
+                      .cajon.color-primario.p-4.fondo-hoja(style="border-radius: 12px; background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
+                        p.mb-0.text-center 64.2 % ÷ 100 = 0.642 x 2.000gr = 1284 gr de maíz nacional 
+                        p.mb-0.text-center 35.8 % ÷ 100= 0.358 x 2.000 gr = 716 gr de soja tostada
                       
     .row.justify-content-center(style="margin-bottom: 5rem")
           .col-lg-12

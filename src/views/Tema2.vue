@@ -30,7 +30,7 @@
     .row.fondo-gradiente
       .col-lg-12.px-md-5.py-5
         .row.justify-content-evenly
-          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -39,7 +39,7 @@
                   h4.text-center Control de calidad de agua
                   p.mb-0 Se debe asegurar que el agua seleccionada para la elaboración o limpieza de materias primas sea un agua bajo condiciones de potabilidad que no generen riesgo para el animal. 
                     
-          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -48,7 +48,7 @@
                   h4.text-center Control de calidad de higiene manipulación
                   p.mb-0 Es necesario certificar que las prácticas de limpieza y desinfección de los operarios sean realizadas de manera eficaz y frecuente.
                     
-          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -167,21 +167,21 @@
     .row.fondo-gradiente
       .col-lg-12.px-md-5.py-5
         .row.justify-content-evenly
-          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .col-8.col-sm-7.col-md-6.col-xl-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img6.svg')})`}")
-                .tarjeta-flip__contenido.p-4.p-xl-5.px-xl-4
+                .tarjeta-flip__contenido.p-5.p-xl-5.px-xl-4
                   h4.text-center Manuales
                   p.mb-0.text-center Los métodos manuales son todos los métodos que consisten en frotar, cepillar y rociar con agua a grandes presiones, donde se puede realizar un barrido húmedo, con escobas, cepillos, enjuagado, y tratamiento con espumas o geles.
                     
-          .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .col-8.col-sm-7.col-md-6.col-xl-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img7.svg')})`}")
-                .tarjeta-flip__contenido.p-4.p-xl-5.px-xl-3
+                .tarjeta-flip__contenido.p-5.p-xl-5.px-xl-3
                   h4.text-center Mecánicos
                   p.mb-0.text-center Los métodos mecánicos generalmente son aquellos que utilizan las fuerzas de remoción, ya sea del agua o el aire, para así extraer todo el material no deseado; dentro de estas, se encuentran el rociado de agua a presión, el uso de aspiradores, y el flujo de aire a presión.
                     

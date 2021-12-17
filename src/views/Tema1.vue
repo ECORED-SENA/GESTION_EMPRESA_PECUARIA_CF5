@@ -109,7 +109,7 @@
         .neg--right.p-4.fondo-hoja(style="background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
           p.mb-4 En las producciones, se establecen diferentes métodos de acopio o almacenamiento de las materias primas, según las condiciones del almacén. A ellos se les debe asegurar el flujo eficaz y oportuno hacia el área de elaboración o producción. Esto, garantizando la calidad y cantidad de los productos bajo una manipulación y acopio desde las condiciones organolépticas de estas. 
           p.mb-0 Los métodos para el acopio de las materias primas dentro de un almacén dependen de factores como el espacio y utilización de este, así como de la forma de colocar las materias primas. Las formas más comunes de acomodar y organizar son las siguientes:
-      .col-lg-5
+      .col-10.col-lg-5
         figure
           img(src='@/assets/curso/tema1/img4.png', alt='imagen ambiental', style="width: 500px").m-auto
     
@@ -174,7 +174,7 @@
             p.mb-0.pt-2(style="border-top: 1px solid #78b62e") 
               b(style="color: #78b62e;") Madigan et al. (2000) 
               b-none definen el deterioro de materias primas o alimentos como cualquier cambio en el aspecto visual, olor o sabor de un producto alimenticio que lo hace inaceptable para el consumidor. Entendiendo esta afirmación de los autores con respecto a las condiciones de cambios o alteraciones, se deben comprender los factores que afectan directa o indirectamente el producto o materia prima. Observe el siguiente recurso de aprendizaje para más información.
-          .col-lg-5
+          .col-10.col-lg-5
             figure
               img(src='@/assets/curso/tema1/img8.png', alt='imagen ambiental', style="width: 520px").m-auto
                     
@@ -182,7 +182,7 @@
           .col-lg-12
             .contenedor-texto
               p.mb-0 Son aquellos factores externos o internos de las materias primas que generan una alteración en su composición.  Los agentes influyentes en este cambio se clasifican en: 
-              .contenedor-title
+              .contenedor-title.py-2.py-lg-4
                 p.mb-0.text-center.text-white
                   b Agentes causales de la perecibilidad
             
@@ -250,8 +250,13 @@
       .col-lg-3
         figure
           img(src='@/assets/curso/tema1/img10.png', alt='imagen ambiental', style="width: 240px").m-auto
-      .col-lg-8
-        p.mb-0 Las materias primas seleccionadas para la elaboración de alimento animal son una fuente que define la composición de un alimento; en consecuencia, su adecuación, recepción y evaluación son acciones constantes para determinar la calidad y bienestar animal.  A continuación, se describen algunas técnicas planeadas desde la inocuidad y calidad de los productos. Estas técnicas ofrecen unos alimentos sanos y seguros, tanto para los animales como para los consumidores finales. ¿Ha escuchado sobre las técnicas de selección, adecuación, recepción y evaluación? Para más información, que le ayudará a desarrollar conocimiento, revise este recurso educativo. 
+      .col-lg-9.mb-4.mb-lg-0
+        .row.justify-content-evenly.px-2.px-lg-0
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema1/lines.svg', alt='imagen ambiental', style="width: 45px").m-auto
+          .col
+            p.mb-0 Las materias primas seleccionadas para la elaboración de alimento animal son una fuente que define la composición de un alimento; en consecuencia, su adecuación, recepción y evaluación son acciones constantes para determinar la calidad y bienestar animal.  A continuación, se describen algunas técnicas planeadas desde la inocuidad y calidad de los productos. Estas técnicas ofrecen unos alimentos sanos y seguros, tanto para los animales como para los consumidores finales. ¿Ha escuchado sobre las técnicas de selección, adecuación, recepción y evaluación? Para más información, que le ayudará a desarrollar conocimiento, revise este recurso educativo. 
 
 
     .row.just-content-center
