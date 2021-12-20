@@ -241,7 +241,7 @@
                   .row.justify-content-center
                     .col-lg-8
                       .cajon.color-primario.p-4.fondo-hoja(style="border-radius: 12px; background-color: #E8EEF3;")(:style="{'background-image': `url(${require('@/assets/curso/tema1/bg-hoja.png')})`}")
-                        p.mb-0.text-center 64.2 % ÷ 100 = 0.642 x 2.000gr = 1284 gr de maíz nacional 
+                        p.mb-0.text-center 64.2 % ÷ 100 = 0.642 x 2.000 gr = 1284 gr de maíz nacional 
                         p.mb-0.text-center 35.8 % ÷ 100= 0.358 x 2.000 gr = 716 gr de soja tostada
                       
     .row.justify-content-center(style="margin-bottom: 5rem")
