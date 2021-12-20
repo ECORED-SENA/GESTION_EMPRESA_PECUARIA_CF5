@@ -118,12 +118,21 @@
               
           .tarjeta.color-acento-botones.p-3(x="35.2%" y="69%" numero="")(style="background-color: #ffebb8; border-top-right-radius: 0px; border-bottom-left-radius: 0px")
             .h5.mb-2(style="color: #12263f;") Diferencias entre el análisis proximal y el método de van Soest
-            figure.mb-4
-              img(src='@/assets/curso/tema3/img3.svg', alt='imagen ambiental', style="").m-auto
+            .row.mb-4
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+                  span Visualice las diferencias
+                  .indicador--click(v-if="mostrarIndicador")
+              
             .p-4(style="background-color: #5F9025")
               p.mb-0.text-white El análisis proximal no diferencia entre el componente de hemicelulosa y lignina (fibras insolubles), unificándolo todo en el extracto libre de nitrógeno, al lado de los carbohidratos (fuente de energía).
 
-
+    ModalA(:abrir-modal.sync="modal1")
+      .row(style="background-color: #ffebb8")
+        .col-12.col-lg-10.p-4
+          figure
+            img(src='@/assets/curso/tema3/img3.svg', alt='imagen ambiental', style="").m-auto
+        
 
 
     separador
@@ -614,6 +623,8 @@
 export default {
   name: 'Tema3',
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
     // variables de vue
     datosSlyder: [
       {
